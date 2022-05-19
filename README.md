@@ -10,17 +10,17 @@ URL 디자인 하는 것이 중요함.
 /search -> Search
 
 
-/users/join
-/users/login
-/users/edit
-/users/delete
+/users/:id -> See User
+/uesrs/logout -> Log out
+/users/edit -> Edit My Profile
+/users/delete -> Delete My Profile
 
 
-/users/edit -> Edit Profile
-/users/delete -> Delete Profile
-/videos/watch -> Watch Video
-/videos/edit -> Edit video
-/videos/delete -> Delete Video
+/videos/:id -> Watch Video
+/videos/:id/edit -> Edit video
+/videos/:id/delete -> Delete Video
+/videos/upload => Upload Video
+
 /videos/comment -> Comment on a video
 /videos/comments/delete -> Delete A comment of a Video
 
